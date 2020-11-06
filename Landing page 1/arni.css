@@ -1,0 +1,102 @@
+.badan {
+    width: 900px;
+    margin: auto;
+
+}
+.gambaratas {
+    background-image: url(gambar/background.jajanan.jpg);
+    height: 600px;
+    width: 1000px;
+    background-position-x: 0 -290;
+    margin: auto;
+}
+.header h1 {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.header1 h4 {
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav li {
+    float: left;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 120px;
+}
+.nav a:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+.Main h3 {
+    text-align: center;
+    margin: auto;
+    border-bottom: 3px dashed black;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.menu img {
+    width: 450px;
+    height: 200px;
+}
+.kiri {
+    float: left;
+    width: 450px;
+    margin: auto;
+    text-align: left;
+}
+.kanan {
+    float: right;
+    width: 450px;
+    margin: auto;
+    text-align: left;
+}
+.videokanan {
+width: 10px 5px;
+margin: auto;
+text-align: center;
+float: right;
+}
+.foother {
+    background-color: cornsilk;
+    padding: 3px;
+}
+.foother .copy {
+    color: cornflowerblue;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*Clearfix */
+.cf::before,
+.cf::before {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
